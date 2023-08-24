@@ -1,13 +1,13 @@
 [
   {
     "id": "0",
-    "name": "울트라부스트 라이트",
+    "name": "울트라부스트 4.0 DNA",
     "category": "Men's Running",
     "imageUrl": [
       "https://d326fntlu7tb1e.cloudfront.net/uploads/710d020f-2da8-4e9e-8cff-0c8f24581488-GV6674.webp",
       "https://d326fntlu7tb1e.cloudfront.net/uploads/710d020f-2da8-4e9e-8cff-0c8f24581488-GV6674.webp"
     ],
-    "oldPrice": "1899.00",
+    "oldPrice": "99,000",
     "sizes": [
       { "size": "260", "isSelected": false },
       { "size": "265", "isSelected": false },
@@ -17,7 +17,7 @@
       { "size": "285", "isSelected": false },
       { "size": "290", "isSelected": false }
     ],
-    "price": "79.00",
+    "price": "139,300",
     "description": "Put some pep in your step with the adidas Originals NMD R1.V2. The modern silhouette teams up with retro details to create a truly stand-out look. Your new favorite sneakers are right here. Regular fit shows off a streamlined silhouette Classic lace closure lets you adjust for your ideal fit.Textile upper provides a snug comfortable feel. Responsive Boost midsole includes plugs for throwback style",
     "title": "Adidas Running Shoes With Cooling Ventilations"
   },

@@ -27,9 +27,9 @@ class _ProductPageState extends State<ProductPage> {
   late Future<Sneakers> _sneaker;
 
   void getShoes() {
-    if (widget.category == "Men's Running") {
+    if (widget.category == "남성 신발") {
       _sneaker = Helper().getMaleSneakersById(widget.id);
-    } else if (widget.category == "Women's Running") {
+    } else if (widget.category == "여성 신발") {
       _sneaker = Helper().getFemaleSneakersById(widget.id);
     } else {
       _sneaker = Helper().getKidsSneakersById(widget.id);

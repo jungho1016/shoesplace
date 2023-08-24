@@ -22,7 +22,7 @@ class HomeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var productNotifier = Provider.of<ProductNotifier>(context);
+    var productNotifier = context.watch<ProductNotifier>();
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -53,7 +53,7 @@ class HomeWidget extends StatelessWidget {
                                           category: shoe.category)));
                             },
                             child: ProductCard(
-                              price: "\$${shoe.price}",
+                              price: "${shoe.price}원",
                               category: shoe.category,
                               id: shoe.id,
                               name: shoe.name,

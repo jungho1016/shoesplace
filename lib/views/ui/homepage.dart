@@ -65,11 +65,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       style: appstyleWithHt(
                           42, Colors.white, FontWeight.bold, 1.5),
                     ),
-                    // Text(
-                    //   "Collection",
-                    //   style: appstyleWithHt(
-                    //       42, Colors.white, FontWeight.bold, 1.2),
-                    // ),
                     TabBar(
                       padding: EdgeInsets.zero,
                       indicatorSize: TabBarIndicatorSize.label,

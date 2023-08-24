@@ -101,11 +101,15 @@ class _ProductCardState extends State<ProductCard> {
                             const SizedBox(
                               width: 5,
                             ),
-                            ChoiceChip(
-                              label: const Text(" "),
-                              selected: selected,
-                              visualDensity: VisualDensity.compact,
-                              selectedColor: Colors.black,
+                            SizedBox(
+                              width: 16, // 원하는 너비로 조정
+                              height: 16, // 원하는 높이로 조정
+                              child: ChoiceChip(
+                                label: const Text(" "),
+                                selected: selected,
+                                visualDensity: VisualDensity.compact,
+                                selectedColor: Colors.black,
+                              ),
                             )
                           ],
                         ),

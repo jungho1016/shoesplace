@@ -36,7 +36,6 @@ class MyApp extends StatelessWidget {
         builder: (context, child) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'dbestech',
             theme: ThemeData(
               primarySwatch: Colors.blue,
             ),
